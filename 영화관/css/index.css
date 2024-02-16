@@ -1,0 +1,166 @@
+body{
+    font-family: 'Lato',sans-serif;
+    /* background-color:  #B7E5B4; */
+    color:#fff;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-color: #B7E5B4;
+    width: 500px;
+    margin-left: 700px;
+    text-align: center;
+    margin-top: 30px;
+}
+.movieContainer{
+    margin:20px 0px;
+}
+.seatContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showcase{
+    background-color: #777;
+    background: rgba(0,0,0,0.1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+    padding: 5px 10px;
+}
+.movieContainer select{
+    margin: 10px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 7px;
+    appearance: none;
+    border: 0;
+}
+.movieContainer select option{
+    text-align: left;
+}
+#container ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.small{
+    color: #000;
+    margin-left: 2px;
+}
+.screen{
+    margin: 20px;
+    padding: 5px;
+    width: 140px;
+    height: 0px;
+    border-top: 120px solid white;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotateX(-60deg);
+ }
+ .occupide{
+     display: inline-block;
+     width: 20px;
+    height: 18px;
+    margin: 3px;
+     background-color: black;
+     border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+     cursor: pointer;
+ }
+ .seat{
+    display: inline-block;
+    width: 20px;
+    height: 18px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+.availableSeat{
+    background-color: white;
+    width: 15px;
+    height: 12px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: default;
+}
+.occupiedSeat{
+    background-color: black;
+    width: 15px;
+    height: 12px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+ .selectedSeatIcon{
+    background-color: #6feaf6;
+    width: 15px;
+    height: 12px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: default;
+ }
+ .seat:hover{
+    scale:1.2;
+ }
+ .selectedSeat:hover{
+    scale: 1.2;
+ }
+ .container1{
+    margin:0 auto;
+    background-color:  #000;
+}
+.navi{
+    width:100%;
+    height: 60px;
+    padding-bottom:20px;
+    border-bottom:2px solid #ccc;
+    display:flex;
+    justify-content: center;
+    
+}
+.navi ul{
+    list-style: none;
+}
+.navi ul li{
+    float:left;
+    width:140px;
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.navi a:link, .navi a:visited{
+    display:block;
+    font-size:14px;
+    color:white;
+    padding:10px;
+    text-decoration:none;
+        text-align:center;
+    }
+.navi a:hover, .navi a:focus{
+    border: 3px solid  #B7E5B4;
+}
+.navi a:active{
+    background-color:white;
+}
+#logo{
+    color:  #B7E5B4;
+    font-size: 30px;
+}
+.navi li:nth-child(6) a {
+    color: #B7E5B4; /* 로그인 글자색을 원하는 색상으로 변경 */
+    font-size: 16px; /* 로그인 글자 크기를 원하는 크기로 변경 */
+}
+.textcontainer{
+    font-size: 20px;
+    color: #000;
+}

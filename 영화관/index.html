@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관람석선택</title>
+    <link rel="stylesheet" href="css/index.css">
+    </style>
+    <script defer src="js/js.js"></script>
+</head>
+<body>
+    
+    <div class="container1">
+        <nav class="navi">
+          <ul>
+            <li id="logo">SMOVIE</li>
+            <li><a href="../영화관/menu.html">이용 안내</a></li>
+            <li><a href="../영화관/movi.html">영화 소개</a></li>
+            <li><a href="../영화관/introduce.html">예약 방법 및 요금</a></li>
+            <li><a href="../영화관/index.html">예약하기</a></li>
+            <li><a href="#">로그인</a></li>
+          </ul>
+        </nav> 
+    </div>
+    <div id="container2">
+    <div id="container">
+        <div class="movieContainer">
+            <label for="movie">영화선택</label>
+            <select name="pickMovie" id="movie">
+                <option class="price" value="12345">어벤져스</option>
+                <option class="price" value="12345">조커</option>
+                <option class="price" value="12345">토이스토리</option>
+                <option class="price" value="12345">라이온킹($9)</option>
+            </select>
+        </div>
+        <ul class="showcase">
+            <li>
+                <div class="availableSeat"></div>
+                <small class="small">빈좌석</small>
+            </li>
+            <li>
+                <div class="occupiedSeat"></div>
+                <small class="small">선택한 좌석</small>
+            </li>
+        </ul>
+    <div class="seatContainer">
+        <div class="screen"></div>
+    </div>
+    <div class="textcontainer">
+    <p class="text">선택한좌석 <span id="count">0</span>
+        합계 <span id="costs">0</span></p>
+    </div>
+</div>
+</body>
+</html>

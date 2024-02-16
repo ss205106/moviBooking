@@ -1,0 +1,81 @@
+.container1{
+    margin:0 auto;
+    background-color:  #000;
+}
+.navi{
+    width:100%;
+    height: 60px;
+    padding-bottom:20px;
+    border-bottom:2px solid #ccc;
+    display:flex;
+    justify-content: center;
+    
+}
+.navi ul{
+    list-style: none;
+}
+.navi ul li{
+    float:left;
+    width:140px;
+  
+    padding-bottom: 20px;
+    margin: 10px;
+}
+.navi a:link, .navi a:visited{
+    display:block;
+    font-size:14px;
+    color:white;
+    padding:10px;
+    text-decoration:none;
+        text-align:center;
+    }
+.navi a:hover, .navi a:focus{
+    border: 3px solid #B7E5B4;
+}
+.navi a:active{
+    background-color:white;
+}
+.content{
+    margin-top: 50px;
+    margin:30px auto;
+    width:400px;
+    padding: 20px;
+    border: 1px solid #222;
+    border-radius: 5px;
+}
+#intro{
+    background-color:#464646;
+    margin-top: 50px;
+    color: white;
+    
+}
+#movie{
+    background-color: #B7E5B4;
+}
+#booking{
+    background-color: #61A3BA;
+}
+#logo{
+    color: #B7E5B4;
+    font-size: 30px;
+}
+.navi li:nth-child(6) a {
+    color: #B7E5B4; /* 로그인 글자색을 원하는 색상으로 변경 */
+    font-size: 16px; /* 로그인 글자 크기를 원하는 크기로 변경 */
+}
+#container{
+    /* background-image:url('../img2/팝콘1.jpg'); */
+    background-size: cover;
+    background-position: center; /* 배경 이미지를 가운데 정렬합니다. */
+    background-repeat: no-repeat; /*배경 이미지를 반복하지 않도록 설정합니다.*/
+    height:850px;
+
+}
+/* #popcon{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+#popcon img{
+    height: 500px;
+} */

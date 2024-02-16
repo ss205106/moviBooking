@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    border-top: 1px dashed #000;
+    width: 80%;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.img{
+    background: url('img/다운로드.jpg')center/cover no-repeat;
+    width: 25%;
+    height: 200px;
+    margin: 10px ;
+}
+#menu{
+    width: 170px;
+    padding: 5px 15px;
+    background-color: orange;
+}
+ul{
+    width: 100%;
+    padding: 0;
+}
+li{
+    list-style: none;
+    
+    height: 30px;
+    color: white;
+    border-bottom: 1px dashed white;
+}
+#imgContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: calc(100% - 150px);
+}

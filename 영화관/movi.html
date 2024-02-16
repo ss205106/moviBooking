@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화소개</title>
+    <link rel="stylesheet" href="css/movi.css">
+    <style>
+           /* body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container1 {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .navi {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+        }
+        .navi ul {
+            list-style: none;
+            display: flex;
+        }
+        .navi ul li {
+            margin-right: 20px;
+        }
+
+        #logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        #container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        #moviList {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 0;
+        }
+
+        #moviList li {
+            overflow: hidden;
+            position: relative;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #moviList li:hover {
+            transform: scale(1.05);
+        }
+
+        #moviList li img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px 10px 0 0;
+            object-fit: cover;
+        }
+
+        .inpo {
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 0 0 10px 10px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            transform: translateY(100%);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #moviList li:hover .inpo {
+            transform: translateY(0);
+        }
+
+        .inpo h2 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .inpo p {
+            margin: 10px 0 0;
+            font-size: 0.9em;
+            color: #666;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container1">
+    <nav class="navi">
+        <ul>
+            <li id="logo">SMOVIE</li>
+          <li><a href="../영화관/menu.html">이용 안내</a></li>
+          <li><a href="../영화관/movi.html">영화 소개</a></li>
+          <li><a href="../영화관/introduce.html">예약 방법 및 요금</a></li>
+          <li><a href="../영화관/index.html">예약하기</a></li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </nav> 
+    </div>
+    <div id="container">
+        <h1>영화 소개</h1>
+        <ul id="moviList">
+            <li>
+                <img src="img2/다운로드 3.jpg" alt="img">
+                <div class="inpo">
+                    <h2>토이스토리</h2>
+                    "끝없는 모험이 펼쳐지는 애니메이션의 대표주자, 토이스토리 시리즈가 돌아왔습니다! 
+                    살아있는 장난감들이 펼치는 따뜻하고 감동적인 이야기, 그리고 새로운 친구들과의 모험이 당신을 기다립니다.
+                        우리의 사랑스러운 주인공 우디와 버즈, 그리고 새로운 친구들이 특별한 여정에 동참하여 우정과 가족의 소중함을 전합니다. 
+                        화려한 애니메이션과 유쾌한 유머, 그리고 마음을 따뜻하게 만드는 메시지가 어우러진
+                         토이스토리는 이번 휴가에 꼭 만나야 할 작품입니다.
+                        가족과 함께 즐거운 시간을 보내고 싶다면, <strong>토이스토리</strong>는 당신을 기다리고 있습니다. 
+                        살아있는 장난감들의 멋진 이야기에 푹 빠져들어보세요!". 
+                        <br><strong>가격:12,345원<br>평점:4.7</strong>
+                </div>
+            </li>
+            <li>
+                <img src="img2/다운로드.jpg" alt="img2">
+                <div  class="inpo">
+                    <h2>어벤져스2</h2>
+                        "마블의 상상력이 만들어낸 역동적인 히어로들이 뭉친 최대의 대작, <strong>어벤져스</strong> 가 찾아왔습니다! 
+                        세계적으로 사랑받는 아이언맨, 토르, 헐크, 캡틴 아메리카를 비롯한 어벤져스가 다시 모여 세상을 지키기 위한 위대한 모험에 나서게 됩니다.
+                        다채로운 개성과 능력을 지닌 슈퍼히어로들의 환상적인 연합, 그리고 강력한 악당에 맞서는 모험은 이번 
+                        휴가를 더욱 특별하게 만들어줄 것입니다. 뛰어난 시각 효과와 놀라운 액션으로 가득한 <strong>어벤져스</strong> 
+                        는 관객들에게 시대를 초월한 히어로의 여정을 선사합니다. 히어로와 악당의 대결, 
+                        그 사이에서 펼쳐지는 우정과 희생이 가득한 <strong>어벤져스</strong>를 꼭 놓치지 마세요!
+                        이번 주, 어벤져스의 진정한 힘을 극장에서 직접 체험해보세요. <strong>어벤져스</strong>가 여러분을 기다리고 있습니다. 
+                        지금껏 본 적 없는 재미와 감동이 여러분을 기다리고 있어요!"<br><strong>가격:12,345원<br>평점:4.7</strong>
+                </div>
+            </li>
+            <li>
+                <img src="img2/다운로드2.jpg" alt="img3">
+                <div  class="inpo">
+                    <h2>조커</h2>
+                    "광기로 가득한 도시, 고담시를 무대로 펼쳐지는 미친 듯한 연기, 그리고 예측 불허의 반전! 
+                    <strong>조커</strong> 는 조커라 불리는 악당의 역동적인 삶을 담은 명작입니다.
+                    히스 레저와 잭 니콜슨에 이어, <strong>호아킨 피닉스</strong> 가 전하는 조커의 새로운 매력으로 극장을 찾아옵니다.
+                     그의 광기 어린 웃음과 혼돈 속에서 펼쳐지는 전율 넘치는 액션은 관객들을 이번 휴가 기간에도 극적으로
+                      사로잡을 것입니다.강렬한 연기력과 예측 불허의 스토리로 이뤄진 <strong>조커</strong>는 시대를 초월한 히어로와 
+                      악당의 대결을 그린 명작 중 하나로 꼽히고 있습니다. 특별한 감동과 긴장감, 그리고 뜨거운 반응을 약속하는 <strong>조커</strong>! 이번 주, 극장에서 펼쳐지는 그의 광기에 맞서 함께 떠나보세요. 
+                    정상을 넘어선 미친 세계로 여러분을 초대합니다!"<br><strong>가격:12,345원<br>평점:4.5</strong>
+                </div>
+            </li>
+            <li>
+                <img src="img2/다운로드 4.jpg" alt="img4">
+                <div class="inpo">
+                         <h2>라이온킹</h2>
+                        "최고의 애니메이션 중 하나,<strong> 라이온 킹이</strong> 새로운 모습으로 극장에 찾아왔습니다! 사파리의 웅장한 풍경과 생동감
+                                넘치는 동물 왕국에서 펼쳐지는 이야기, 그 중심에는 어깨높이 자란 사자 심바의 용맹한 모험이 담겨 있습니다.
+                            최첨단 시각 효과와 감동적인 음악으로 더욱 강력해진 라이온 킹은 전 세대를 사로잡은 명작의 새로운 해석입니다. 
+                            가족과 함께한 시간이 더욱 특별하고 감동적으로 만들어질 이번 기회를 놓치지 마세요.
+                            라이온 킹이 극장에 찾아와, 생동감 넘치는 사파리의 여정이 여러분을 기다립니다. 이번 주, 라이온 킹과 함께
+                             놀라운 여정을 떠나보세요!"
+                         어린이 가족영화<br><strong>가격:12,345원<br>평점:4.9</strong>
+                </div>
+            </li>
+        </ul>
+        <!-- <div id="img2">
+            <img src="img2/다운로드5.jpg" alt="이미지" >
+        </div> -->
+    </div>
+    
+</body> 
+</html>
